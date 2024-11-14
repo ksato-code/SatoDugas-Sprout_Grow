@@ -1,0 +1,78 @@
+/* Basic CSS file for Sprout & Grow website */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+header, footer {
+    background-color: #7fa99b;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px 50px;
+    padding: 20px;
+    margin: 70px;
+    color: #fff;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-box-list {
+    position: absolute;
+    top: 120;
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    color: #9c2c2c;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+div {
+    position: relative;
+}
+
+h2 {
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    bottom: 25%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 500px;
+    height: auto;
+}
+/* Add specific styles for navigation, main content, images, etc. */
