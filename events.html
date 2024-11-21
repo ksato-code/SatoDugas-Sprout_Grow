@@ -4,17 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css4.css">
 </head>
 <body>
     <header>
         <!-- Header content goes here: logo, navigation bar -->
+        <img src="images/sprout-grow-horizontal-524-transparent.jpg" class="logo" alt="logo">
+        <nav>
+           <ul class="navbar">
+
+             <li><a href="index.html">Home</a></li>
+
+             <li><a href="about.html">About</a></li>
+
+             <li><a href="products.html">Products</a></li>
+
+             <li>
+               <details class="nest-box">
+                   <summary>Events</summary>
+                <ul class="nest-box-list">
+                   <li><a href="events.html">Events</a></li>
+                   <li><a href="register.html">Register</a></li>
+                </ul>
+                </details>
+             </li>
+
+           </ul>
+        </nav>
     </header>
     <main>
         <!-- Events page content goes here: event descriptions, calendars, registration links -->
+    <div class="container">
+        <div class="box">
+        <a href="register.html">
+        <img src="images/event:people.jpeg" class="img1" alt="plantting">
+        </a>
+        <h3>Plantting Event</h3>
+        <a href="register.html">Register</a>
+        </div>
+        <div class="box">
+        <a href="register.html">
+        <img src="images/events2.jpeg" class="img2" alt="plantting">
+        </a>
+        <h3>Search Foots Event</h3>
+        <a href="register.html">Register</a>
+        </div>
+    </div>
+    
     </main>
     <footer>
         <!-- Footer content goes here: copyright info, social media links -->
+        <form>
+            <label for="name-input">Name</label>
+            <input type="text" id="name-input">
+
+            <label for="email-input">Email</label>
+            <input type="text" id="email-input">
+
+            <button type="submit">Submit</button>
+         </form>
+         <p>Email: ksato@my.waketech.edu</p>
+         <div class="ssn">
+         <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+         </a>
+         </div>
     </footer>
 </body>
-</html>
+</htm>

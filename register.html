@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/styles.css5.css">
+</head>
+<body>
+    <header>
+        <!-- Header content goes here: logo, navigation bar -->
+         <img src="images/sprout-grow-horizontal-524-transparent.jpg" class="logo" alt="logo">
+         <nav>
+            <ul class="navbar">
+
+              <li><a href="index.html">Home</a></li>
+
+              <li><a href="about.html">About</a></li>
+
+              <li><a href="products.html">Products</a></li>
+
+              <li>
+                <details class="nest-box">
+                    <summary>Events</summary>
+                 <ul class="nest-box-list">
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="register.html">Register</a></li>
+                 </ul>
+                 </details>
+              </li>
+
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <!-- Home page main content goes here: hero image, intro text, etc. -->
+        <h1>Welcome! Register Now to Get Started</h1>
+        <h3>Please fill in this form.</h3>
+          <form class="registration-box">
+            <div class="text-box">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <br />
+            <div class="text-box">
+                 <label for="email">Email Address</label>
+                <input type="text" id="email" required>
+            </div>
+            <br />
+            <div class="text-box">
+                  <label for="phone">Phone Number</label>
+                  <input type="text" id="phone" required>
+            </div>
+            <br />
+            <p>Event selection
+                <input type="checkbox" id="event1" name="event1" />
+                <label for="event1">Planting Event</label>
+                <input type="checkbox" id="event2" name="event2" />
+                <label for="event2">Search Foots Event</label>
+            </p>
+
+            <p>
+              <label for="hear-about">
+                How do you hear about us?
+              </label>
+              <select name="referrer" id="hear-about">
+                <option value="google">Google</option>
+                <option value="magazine">magazine</option>
+                <option value="acquaintance">Acquaintance</option>
+                <option value="else">Else</option>
+              </select>
+            </p>
+            <p>Would you like to receive new information?
+             <label>
+              <input type="radio" name="rating" value="yes" />
+              Yes
+             </label>
+             <label>
+              <input type="radio" name="rating" value="no" />
+              No
+             </label>
+            </p>
+            <p>
+              <label for="comment">Comments</label>
+              <textarea rows="4" cols="40" id="comments"></textarea>
+            </p>
+            </p>
+            <button type="submit">Submit</button>
+         </form>
+      </div>
+      </main>
+    <footer>
+        <!-- Footer content goes here: copyright info, social media links -->
+         
+         <h4>Contact</h4>
+         <form>
+            <label for="name-input">Name</label>
+            <input type="text" id="name-input">
+        
+            <label for="email-input">Email</label>
+            <input type="text" id="email-input">
+
+            <button type="submit">Submit</button>
+         </form>
+         <p>Email: ksato@my.waketech.edu</p>
+    </footer>
+</body>
+</html>
